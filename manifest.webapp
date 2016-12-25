@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "name": "ToDo Note",
+  "description": "ToDo Note is an application through which you can list you daily necessary things that need to do. Its very helpful to note down your daily works with this app",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/images/icon128.png",
+    "256": "/images/icon256.png",
+    "512": "/images/icon512.png"
+  },
+  "developer": {
+    "name": "Atique Ahmed Ziad",
+    "url": "http://ziad.xyz"
+  },
+  "default_locale": "en" 
+}

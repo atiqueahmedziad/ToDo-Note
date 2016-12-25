@@ -1,0 +1,79 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+font-family: "fingerpaint";
+src: url('../FingerPaint-Regular.ttf') format("truetype");
+} 
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #545454;
+  background: #F7F7F7;
+  width: 100%;
+}
+
+#header h1 {
+  font-family: fingerpaint;
+  text-align: center;
+  color: #F3600F;
+} 
+
+#page-wrapper {
+  width: 100%;  
+  margin: auto;
+  background: #FFF;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+#new-todo-form {
+  padding: 0.5em;
+  background: #F98A4E;
+  border-radius: 5px;
+}
+
+#new-todo {
+  font-size: inherit;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: 0;
+}
+
+#todo-items {
+  list-style: none;
+  padding: 0.5em 1em;
+  margin: 0;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#todo-items li {
+  background: #FFF;
+  border-bottom: 1px solid #EEE;
+  font-size: 1.1em;
+  margin: 0.5em 0;
+  padding: 0.5em;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  height: 17px;
+  width: 17px;
+}
+
+#footer {
+  bottom: 0;
+  font-size: 10px;
+  text-align: center;
+}
+
+#footer a {
+  text-decoration: none;
+}
